@@ -16,5 +16,5 @@ else
     message=$2
 fi
 echo Reminder set for $time seconds.
-sleep $time ; notify-send -i $PWD/clock.ico "$message"&
+sleep $time && notify-send -i $PWD/clock.ico "$message"&
 echo
