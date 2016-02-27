@@ -13,6 +13,7 @@ if [ $# -lt 2 ]; then
    echo -n "Message to notify: "
    read message
 else
+    time=$1
     message=$2
 fi
 echo Reminder set for $time seconds.
